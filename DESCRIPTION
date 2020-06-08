@@ -1,7 +1,7 @@
 Package: GeneOverlap
 Type: Package
 Title: Test and visualize gene overlaps
-Version: 1.25.0
+Version: 1.25.1
 Date: 2013-12-13
 Author: Li Shen, Mount Sinai <shenli.sam@gmail.com>
 Maintainer: Li Shen, Mount Sinai <shenli.sam@gmail.com>
@@ -14,3 +14,4 @@ Collate: AllClasses.R AllGenerics.R GeneOverlap-accessors.R
         GeneOverlap-methods.R GeneOverlapMatrix-accessors.R
         GeneOverlapMatrix-methods.R
 biocViews: MultipleComparison, Visualization
+PackageStatus: Deprecated
