@@ -12,10 +12,10 @@ setClass(
                    Jaccard="numeric",
                    is.tested="logical"),
     validity=function(object) {
-        if(length(object@listA) > 0 && is.na(object@listA)) {
+        if(length(object@listA) > 0 && all(is.na(object@listA))) {
             stop("listA cannot be NA. Check your input.")
         }
-        if(length(object@listB) > 0 && is.na(object@listB)) {
+        if(length(object@listB) > 0 && all(is.na(object@listB))) {
             stop("listB cannot be NA. Check your input.")
         }
         
