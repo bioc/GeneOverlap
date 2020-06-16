@@ -12,6 +12,6 @@ Imports: stats, RColorBrewer, gplots, methods
 URL: http://shenlab-sinai.github.io/shenlab-sinai/
 Collate: AllClasses.R AllGenerics.R GeneOverlap-accessors.R
         GeneOverlap-methods.R GeneOverlapMatrix-accessors.R
-        GeneOverlapMatrix-methods.R
+        GeneOverlapMatrix-methods.R zzz.R
 biocViews: MultipleComparison, Visualization
 PackageStatus: Deprecated
